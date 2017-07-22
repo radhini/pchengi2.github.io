@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I'm a developer and Linux Sysadmin, with over ten years of experience and keen interest in grid and cluster computing, and information security.
+I live in Sweden, and work at the National Supercomputer Center, in Linköping. 
+You can find my resume [here](/assets/resume.pdf).
