@@ -3,6 +3,18 @@ layout: default
 comments: true
 ---
 
+	<div class = "tagcol">
+	Tags<br>
+	{% assign tags = site.tags | sort %}
+	{% for tag in tags %}
+	 <span class="site-tag">
+    	<a href="/tag/{{ tag | first | slugify }}"
+    	    style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+ 	           {{ tag[0] | replace:'-', ' ' }}
+ 	   </a>
+	</span>
+	{% endfor %}
+	</div>
 <article class="post">
   <h1>{{ page.title }}</h1>
   <div class="date">
@@ -12,7 +24,6 @@ comments: true
   <div class="entry">
     {{ content }}
   </div>
-
 
   {% include disqus.html %}
 </article>

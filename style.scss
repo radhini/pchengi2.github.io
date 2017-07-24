@@ -244,6 +244,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  margin-right: 180px;  
 }
 
 .posts > .post:last-child {
@@ -252,6 +253,7 @@ nav {
 }
 
 .post {
+  margin-right: 180px;  
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -281,6 +283,14 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+.site-tag a {
+	display: inline-block;
+	float: right;
+	
+}
+.tagcol {
+	float: right;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
