@@ -11,5 +11,6 @@ cat <<EOF >"$fn";
 layout: post
 title:  "$dts"
 date:   $dt
+comments: yes
 ---
 EOF
