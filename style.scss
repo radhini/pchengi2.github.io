@@ -116,6 +116,7 @@ img {
 }
 
 .date {
+  margin-top: -20px;
   font-style: italic;
   color: $gray;
 }
@@ -243,8 +244,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-  margin-right: 180px;  
+  width: 70%;
 }
 
 .posts > .post:last-child {
@@ -253,10 +253,9 @@ nav {
 }
 
 .post {
-  margin-right: 250px;
+  width: 70%;
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
@@ -291,7 +290,8 @@ footer {
 }
 .tagcol {
 	float: right;
-	margin-left: 550px;
+	width: 28%; 
+    #border-left: 1px dotted #ddd;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
