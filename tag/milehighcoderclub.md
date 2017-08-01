@@ -1,6 +1,6 @@
 ---
 layout: default
-title: jekyll
+title: milehighcoderclub
 ---
 <html>
 <body>

@@ -2,7 +2,7 @@
 layout: post
 title:  "A new webpage!"
 date:   2017-07-22
-tags:	jekyll, blog
+tags:	[jekyll, blog]
 comments:	true
 ---
 
