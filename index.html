@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
 	<div class = "tagcol">
-Tags<br>
+<h2>Tags</h2>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">
@@ -14,6 +14,11 @@ Tags<br>
     </a>
 </span>
 {% endfor %}
+<br>
+<h2>About me</h2>
+I'm a developer and Linux Sysadmin, with over ten years of experience and keen interest in grid & cluster computing, and information security.
+I live in Sweden, and work at the National Supercomputer Center, in Linköping.
+You can find my resume <a href="/assets/resume.pdf" >here. </a>
 </div>
   {% for post in site.posts %}
     <article class="post">
