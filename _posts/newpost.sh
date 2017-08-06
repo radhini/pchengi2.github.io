@@ -12,5 +12,6 @@ layout: post
 title:  "$dts"
 date:   $dt
 comments: yes
+categories: general
 ---
 EOF

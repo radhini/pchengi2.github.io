@@ -166,8 +166,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   margin-right: 15px;
 
   @include mobile {
@@ -288,6 +288,7 @@ footer {
 	
 }
 .tagcol {
+    margin-top: -50px;
 	float: right;
 	width: 28%; 
     #border-left: 1px dotted #ddd;
