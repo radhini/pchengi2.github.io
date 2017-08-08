@@ -1,5 +1,5 @@
 ---
 layout: default
-title: lorem
+title: jekyll
 ---
 {% include tag.html %}

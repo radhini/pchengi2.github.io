@@ -1,5 +1,5 @@
 ---
 layout: default
-title: ipsum
+title: tags
 ---
 {% include tag.html %}
