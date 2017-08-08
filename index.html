@@ -22,7 +22,7 @@ You can find my resume <a href="/assets/resume.pdf" >here. </a>
 </span>
 {% endfor %}
 </div>
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   {% assign found = 0 %}
 	{% for category in post.categories %}
   	{% if category == 'general' %}
@@ -44,4 +44,20 @@ You can find my resume <a href="/assets/resume.pdf" >here. </a>
     </article>
 	{% endif %}
   {% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number "> Current Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
 </div>
