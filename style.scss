@@ -156,7 +156,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 45px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -248,7 +248,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  width: 70%;
+  //width: 70%;
 }
 
 .posts > .post:last-child {
