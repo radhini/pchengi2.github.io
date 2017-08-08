@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Deepa Mohan
+name: Your Name
 
 # Short bio or description (displayed in the header)
-description: deponti to the world
+description: your byline
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -20,8 +20,8 @@ footer-links:
   dribbble:
   email:
   facebook:
-  flickr: mohandep
-  github: deponti-in
+  flickr:
+  github: 
   instagram:
   linkedin:
   pinterest:
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "http://deponti.in"
+url: ""
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
