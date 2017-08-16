@@ -14,4 +14,3 @@ tags: prose.io
 date: 2017-08-16
 title: Using prose.io for posting
 ```
-![](https://ic.pics.livejournal.com/prashanthchengi/11938030/12188/12188_900.jpg)
