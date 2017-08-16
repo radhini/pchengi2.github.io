@@ -1,5 +1,5 @@
 ---
-published: 'yes'
+published: true
 comments: 'yes'
 tags: prose.io
 date: 2017-08-16T00:00:00.000Z
@@ -14,3 +14,4 @@ tags: prose.io
 date: 2017-08-16
 title: Using prose.io for posting
 ```
+![]({{site.baseurl}}/https://ic.pics.livejournal.com/prashanthchengi/11938030/12188/12188_900.jpg)
