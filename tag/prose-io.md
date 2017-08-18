@@ -1,5 +1,5 @@
 ---
 layout: default
-title: prose.io
+title: prose-io
 ---
 {% include tag.html %}
