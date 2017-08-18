@@ -2,7 +2,7 @@
 layout: post
 published: true
 comments: 'yes'
-tags: prose-io, tutorial
+tags: [prose-io, tutorial]
 date: 2017-08-16T00:00:00.000Z
 title: '[Tutorial] Using prose.io for posting'
 ---
