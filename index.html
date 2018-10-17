@@ -1,13 +1,9 @@
 ---
 layout: default
+published: true
 ---
 
-This blog template is derived from Barry Clark's Jekyll-Now template.
-In order to set it up afresh, you can follow the excellent documentation, and also see the demo of the Jekyll-Now site <a href="http://www.jekyllnow.com/">here</a>. The same site also has a Markdown style guide, for reference.
 
-Barry's code was an excellent starting point, and it was almost everything I needed. The only things I felt like adding on top of this was a tag cloud, and paginated posts.
-
-<div class="posts">
   {% for post in paginator.posts %}
   {% assign found = 0 %}
 	{% for category in post.categories %}
